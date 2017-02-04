@@ -1,0 +1,23 @@
+{
+  "name": "karma-jasmine",
+  "version": "1.0.0",
+  "description": "karma + jasmine单元测试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.4.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0"
+  },
+  "devDependencies": {
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-requirejs": "^1.1.0",
+    "requirejs": "^2.3.2"
+  }
+}
