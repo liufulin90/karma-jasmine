@@ -8,6 +8,10 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liufulin90/karma-jasmine.git"
+  },
   "dependencies": {
     "jasmine-core": "^2.5.2",
     "karma": "^1.4.1",

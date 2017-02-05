@@ -1,3 +1,7 @@
+Karma是单元测试容器。Jasmine是做单元测试
+#jasmine最新api
+https://jasmine.github.io/2.5/introduction
+
 #安装使用
 ###1、创建项目
 ```shell 
