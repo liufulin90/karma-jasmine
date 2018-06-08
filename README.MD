@@ -1,15 +1,16 @@
 Karma是单元测试容器。Jasmine是做单元测试
-#jasmine最新api
+# jasmine最新api
 https://jasmine.github.io/2.5/introduction
 
-#安装使用
-###1、创建项目
+# 安装使用
+### 1、创建项目
 ```shell 
 makdir karma-jasmine
 cd karma-jasmine
 npm init
 ```
-###2、安装必要的包
+
+### 2、安装必要的包
 ```shell
 npm i karma --save
 npm i karma-jasmine --save
@@ -18,7 +19,7 @@ npm i karma-coverage --save
 npm i jasmine-core --save
 ```
 
-###3、创建被测试文件
+### 3、创建被测试文件
 新建js文件夹，进入js文件夹新建文件index.js、index2.js、index3.js、jasmineTest.js
 在index.js中添加内容
 ```javascript
@@ -61,7 +62,7 @@ describe('测试基本函数', function () {
   })
 })
 
-###4、创建测试文件
+### 4、创建测试文件
 进入karma-jasmine目录，传键test文件夹,执行命令 karma init 初始化karma配置文件
 创建之后在test目录中会有一个karma.conf.js文件。
 打开karma.conf.js稍做修改
@@ -130,9 +131,9 @@ module.exports = function(config) {
 }
 ```
 
-###5、开始测试
+### 5、开始测试
 在命令行中执行 karma start,会自动启动浏览器，在控制台中可以看到测试的结果
 
-###6、单元测试覆盖率
+### 6、单元测试覆盖率
 当我们输入karma start时会自动生成一个coverage文件夹，直接打开index.html可以查看测试报表。
 其中为粉色背景的没有测试的函数
